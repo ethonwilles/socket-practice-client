@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .output {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 33vw;
+    overflow: auto;
+    .userMsg {
+      align-self: flex-end;
+      width: auto;
+      border-radius: 10px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+    .recvMsg {
+      width: auto;
+      border-radius: 10px;
+      background-color: lightgray;
+      align-self: flex-start;
+      padding: 10px;
+    }
+  }
+}
